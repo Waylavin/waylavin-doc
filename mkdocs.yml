@@ -1,0 +1,42 @@
+site_name: My Docs
+site_url: https://sitename.example
+
+# default homepage should be Home/index.md
+plugins:
+  - search:
+  - autorefs:
+  - redirects:
+      redirect_maps:
+        "index.md": "Home/index.md"
+  - tags:
+  - meta:
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: brown
+      accent: deep orange
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: light green
+      accent: green
