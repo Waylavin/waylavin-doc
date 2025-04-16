@@ -26,6 +26,7 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.path
+    - content.action.edit
 
   palette:
     - scheme: slate
