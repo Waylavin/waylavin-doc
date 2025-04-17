@@ -1,5 +1,6 @@
 site_name: Waylavin Documentation
-site_url: https://sitename.example
+site_url: https://waylavin.github.io/waylavin-doc
+repo_url: https://github.com/Waylavin/waylavin-doc
 
 # default homepage should be Home/index.md
 plugins:
